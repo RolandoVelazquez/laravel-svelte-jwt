@@ -7,8 +7,8 @@
     import {infoUser} from '../stores/user';
 
     let credenciales = {
-        email: 'rolando@mail.com',
-        password: 'secret123456'
+        email: '',
+        password: ''
     }
     let errors = {
         email: '',

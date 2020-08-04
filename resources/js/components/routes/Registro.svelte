@@ -5,10 +5,10 @@
     import {userLogin} from '../stores/user';
 
     let credenciales = {
-        name: 'rolando',
-        email: 'rolando@mail.com',
-        password:'secret123456',
-        password_confirmation:'secret123456'
+        name: '',
+        email: '',
+        password:'',
+        password_confirmation:''
     }
     let errors = {
         name:'',

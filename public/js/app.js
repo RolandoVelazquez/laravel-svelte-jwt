@@ -13700,8 +13700,8 @@ function instance($$self, $$props, $$invalidate) {
     return $$invalidate(2, $userLogin = $$value);
   });
   var credenciales = {
-    email: "rolando@mail.com",
-    password: "secret123456"
+    email: "",
+    password: ""
   };
   var errors = {
     email: "",
@@ -14744,10 +14744,10 @@ function instance($$self, $$props, $$invalidate) {
     return $$invalidate(7, $userLogin = $$value);
   });
   var credenciales = {
-    name: "rolando",
-    email: "rolando@mail.com",
-    password: "secret123456",
-    password_confirmation: "secret123456"
+    name: "",
+    email: "",
+    password: "",
+    password_confirmation: ""
   };
   var errors = {
     name: "",
