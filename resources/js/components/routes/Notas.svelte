@@ -4,7 +4,7 @@
     import {infoUser} from '../stores/user';
     let notas;
     onMount(()=>{
-        axios.get(`${window.location.origin}/api/notas`,{
+        axios.get(`/api/notas`,{
             headers:{
                 Authorization:`Bearer ${localStorage.token}`
             }

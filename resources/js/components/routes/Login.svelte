@@ -27,7 +27,7 @@
     });
 
     function login() {
-        axios.post(`${window.location.origin}/api/login`, credenciales).then(res => {
+        axios.post(`/api/login`, credenciales).then(res => {
             localStorage.setItem('token', res.data.token);
             $userLogin = true;
             window.location.href = window.location.origin+'/';

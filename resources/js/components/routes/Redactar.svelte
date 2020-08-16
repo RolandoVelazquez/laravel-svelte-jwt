@@ -5,7 +5,8 @@
     import {userLogin, infoUser} from '../stores/user';
     let nota;
     function guardar(){
-        axios.post(`${window.location.origin}/api/guardarnotas`,{nota:nota},{
+//        axios.post(`${window.location.origin}/api/guardarnotas`,{nota:nota},{
+        axios.post(`/api/guardarnotas`,{nota:nota},{
             headers:{
                 Authorization:`Bearer ${localStorage.token}`
             }

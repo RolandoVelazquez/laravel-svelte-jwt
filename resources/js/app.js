@@ -6,6 +6,8 @@
  */
 
 import App from "./components/App.svelte";
+import axios from 'axios';
+axios.defaults.baseURL = 'http://ffe123b33641.ngrok.io/';
 const app = new App({
   target: document.getElementById('app')
 });

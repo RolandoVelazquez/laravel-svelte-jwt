@@ -12190,12 +12190,16 @@ function crossfade(_a) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_App_svelte__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/App.svelte */ "./resources/js/components/App.svelte");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Svelte and other libraries. It is a great starting point when
  * building robust, powerful web applications using Svelte and Laravel.
  */
 
+
+axios__WEBPACK_IMPORTED_MODULE_1___default.a.defaults.baseURL = 'http://ffe123b33641.ngrok.io/';
 var app = new _components_App_svelte__WEBPACK_IMPORTED_MODULE_0__["default"]({
   target: document.getElementById('app')
 });
@@ -13722,7 +13726,7 @@ function instance($$self, $$props, $$invalidate) {
   });
 
   function login() {
-    axios__WEBPACK_IMPORTED_MODULE_2___default.a.post("".concat(window.location.origin, "/api/login"), credenciales).then(function (res) {
+    axios__WEBPACK_IMPORTED_MODULE_2___default.a.post("/api/login", credenciales).then(function (res) {
       localStorage.setItem("token", res.data.token);
       Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_store_value"])(_stores_user__WEBPACK_IMPORTED_MODULE_4__["userLogin"], $userLogin = true);
       window.location.href = window.location.origin + "/";
@@ -13988,7 +13992,7 @@ function instance($$self, $$props, $$invalidate) {
   });
   var notas;
   Object(svelte__WEBPACK_IMPORTED_MODULE_1__["onMount"])(function () {
-    axios__WEBPACK_IMPORTED_MODULE_2___default.a.get("".concat(window.location.origin, "/api/notas"), {
+    axios__WEBPACK_IMPORTED_MODULE_2___default.a.get("/api/notas", {
       headers: {
         Authorization: "Bearer ".concat(localStorage.token)
       }
@@ -14257,7 +14261,8 @@ function instance($$self, $$props, $$invalidate) {
   var nota;
 
   function guardar() {
-    axios__WEBPACK_IMPORTED_MODULE_2___default.a.post("".concat(window.location.origin, "/api/guardarnotas"), {
+    //        axios.post(`${window.location.origin}/api/guardarnotas`,{nota:nota},{
+    axios__WEBPACK_IMPORTED_MODULE_2___default.a.post("/api/guardarnotas", {
       nota: nota
     }, {
       headers: {
@@ -14433,7 +14438,7 @@ function create_fragment(ctx) {
     ctx[1].nam,
     autocomplete: "off",
     type: "text",
-    label: "Correo Electronico",
+    label: "Nombre",
     required: true,
     message: "Ingresa tu nombre"
   };
@@ -14464,7 +14469,7 @@ function create_fragment(ctx) {
     ctx[1].email,
     autocomplete: "off",
     type: "email",
-    label: "Contraseña",
+    label: "Email",
     required: true,
     message: "Ingresa tu Correo"
   };
@@ -14757,7 +14762,7 @@ function instance($$self, $$props, $$invalidate) {
   };
 
   function register() {
-    axios__WEBPACK_IMPORTED_MODULE_2___default.a.post("".concat(window.location.origin, "/api/register"), credenciales).then(function (res) {
+    axios__WEBPACK_IMPORTED_MODULE_2___default.a.post("/api/register", credenciales).then(function (res) {
       localStorage.setItem("token", res.data.token);
       Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_store_value"])(_stores_user__WEBPACK_IMPORTED_MODULE_4__["userLogin"], $userLogin = true);
       window.location.href = window.location.origin + "/";

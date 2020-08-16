@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c12ba97c-b77e-4503-b00e-73af62ac8713" name="Default Changelist" comment="" />
+    <list default="true" id="c12ba97c-b77e-4503-b00e-73af62ac8713" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/cors.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/cors.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/routes/Login.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/routes/Login.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/routes/Notas.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/routes/Notas.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/routes/Redactar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/routes/Redactar.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/routes/Registro.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/routes/Registro.svelte" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +32,9 @@
         <option value="Svelte Component" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsBowerSettings">
     <node-interpreter value="project" />
@@ -184,7 +195,8 @@
       <workItem from="1596430841337" duration="10304000" />
       <workItem from="1596441237553" duration="6402000" />
       <workItem from="1596482164958" duration="108000" />
-      <workItem from="1596484558644" duration="9734000" />
+      <workItem from="1596484558644" duration="10086000" />
+      <workItem from="1597593014797" duration="1540000" />
     </task>
     <servers />
   </component>
@@ -200,9 +212,9 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="198" y="13" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1596441273750" />
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1596503269159">
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1597593350688">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1596503269159" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1597593350688" />
   </component>
 </project>

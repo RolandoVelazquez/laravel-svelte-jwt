@@ -17,7 +17,7 @@
         password_confirmation:''
     }
     function register() {
-        axios.post(`${window.location.origin}/api/register`, credenciales).then(res => {
+        axios.post(`/api/register`, credenciales).then(res => {
             localStorage.setItem('token', res.data.token);
             $userLogin = true;
             window.location.href = window.location.origin+'/';
@@ -62,9 +62,9 @@
 <section class="form animated flipInX">
     <h2>Registrate</h2>
     <form on:submit|preventDefault={register} class="loginbox" autocomplete="off">
-        <Textfield error="{errors.nam}" autocomplete="off" type="text" label="Correo Electronico" required
+        <Textfield error="{errors.nam}" autocomplete="off" type="text" label="Nombre" required
                    bind:value={credenciales.name} message="Ingresa tu nombre"/>
-        <Textfield error="{errors.email}" autocomplete="off" type="email" label="Contraseña" required
+        <Textfield error="{errors.email}" autocomplete="off" type="email" label="Email" required
                    bind:value={credenciales.email}
                    message="Ingresa tu Correo"/>
         <Textfield error="{errors.password}" autocomplete="off" type="password" label="Contraseña" required
