@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c12ba97c-b77e-4503-b00e-73af62ac8713" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/cors.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/cors.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/routes/Login.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/routes/Login.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/routes/Notas.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/routes/Notas.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/routes/Redactar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/routes/Redactar.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/routes/Registro.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/routes/Registro.svelte" afterDir="false" />
-    </list>
+    <list default="true" id="c12ba97c-b77e-4503-b00e-73af62ac8713" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,7 +188,7 @@
       <workItem from="1596441237553" duration="6402000" />
       <workItem from="1596482164958" duration="108000" />
       <workItem from="1596484558644" duration="10086000" />
-      <workItem from="1597593014797" duration="1540000" />
+      <workItem from="1597593014797" duration="1660000" />
     </task>
     <servers />
   </component>
